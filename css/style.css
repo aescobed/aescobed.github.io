@@ -1,0 +1,53 @@
+#main{
+    
+    color: rgb(0,0,255);
+    font-family: Garamond, serif;
+}
+
+.container{
+    width: 100%;
+    margin:auto;
+    overflow:hidden;
+}
+
+#welcome{
+    background-image:url('../images/gears.jpg');
+    background-position:center right;
+    color: white;
+}
+
+
+#mainHeader{
+    background-color:coral;
+    color: #fff;
+    font-size: 50px;
+    padding: 40;
+}
+
+#navbar{
+    background-color:#333;
+    color:#fff;
+}
+
+#navbar ul{
+    padding:20;
+    list-style:none;
+}
+
+#navbar li{
+    display:inline;
+}
+
+#navbar a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right:15px;
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+    padding:0 30px;
+    box-sizing: border-box;
+}
