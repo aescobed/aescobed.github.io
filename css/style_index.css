@@ -1,20 +1,22 @@
 body{
     min-height:100%;
-    background: rgb(210, 210, 219);
+    background: rgb(199, 199, 202);
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 
 #main{
     
     color: rgb(0,0,255);
-    font-family: Garamond, serif;
-    background-color: rgb(210, 210, 231);
+    font-family: 'Josefin Sans', sans-serif;
+    background: rgb(199, 199, 202);
 }
 
 .container{
     width: 80%;
     margin:auto;
+    font-family: 'Josefin Sans', sans-serif;
     overflow:hidden;
     color: rgb(25, 25, 94);
 }
