@@ -35,7 +35,7 @@ body{
 }
 
 @keyframes welcome{
-    0%      {top: -50px;}
+    0%      {top: 20px;}
     100%    {top: 20px;}
 }
 
@@ -77,7 +77,7 @@ body{
     box-sizing: border-box;
 }
 
-#proj{
+#button{
     display: inline block;
     color: white;
     text-decoration: none;
@@ -88,7 +88,7 @@ body{
     opacity: 0;
     animation: proj;
     animation-duration:1s;
-    animation-delay:1s;
+
     animation-fill-mode: forwards;
     background-color: rgb(45, 45, 119);
 
@@ -99,7 +99,7 @@ body{
 }
 
 @keyframes proj{
-    0%  {opacity: 0;}
+    0%  {opacity: 1;}
     100% {opacity:1;}
 }
 
