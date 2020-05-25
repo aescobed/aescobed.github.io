@@ -10,6 +10,11 @@ body{
  
 }
 
+.rotatePic {
+    -webkit-transform: rotate(90deg);
+
+}
+
 
 header{
     background: #55d6aa;
@@ -70,6 +75,37 @@ nav a:hover::before {
     color: rgb(25, 25, 94);
     font-size: 20px;
     margin-left: 100px;
-    margin-top: 200px;
+    margin-bottom: 400px;
 }
 
+#descMacros {
+    color: rgb(25, 25, 94);
+    font-size: 20px;
+    margin-left: 100px;
+    margin-bottom: 450px;
+}
+
+#desc2 {
+    color: rgb(25, 25, 94);
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+#CADdesc {
+    color: rgb(25, 25, 94);
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 550px;
+}
+
+#Circuitrydesc {
+    color: rgb(25, 25, 94);
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 720px;
+    margin-bottom: 550px;
+}
