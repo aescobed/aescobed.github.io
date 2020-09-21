@@ -7,7 +7,6 @@ body{
 
 .container{
     width: 80%;
- 
 }
 
 .rotatePic {
@@ -16,7 +15,33 @@ body{
 }
 
 
-header{
+figure.left {
+    display: flex;
+    align-items: end;
+    border: thick silver solid;
+    padding-left: 20px;
+}
+
+figure.right {
+    float: right;
+    display: flex;
+    align-items: end;
+    border: thick silver solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+figcaption {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    color: rgb(25, 25, 94);
+    font-size: 20px;
+}
+
+header {
     background: #55d6aa;
 }
 
@@ -92,6 +117,7 @@ nav a:hover::before {
     margin-top: 50px;
     margin-bottom: 40px;
 }
+
 
 #CADdesc {
     color: rgb(25, 25, 94);
